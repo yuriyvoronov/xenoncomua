@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<script src="js/common.js"></script>
 </head>
 <body>
 	<header>
@@ -95,10 +96,10 @@
 					<p>
 						Получите подробную консультацию от наших специалистов
 					</p>
-					<form action="">
-						<input type="text" class="name">
-						<input type="text" class="phone">
-												
+					<form action="" id="frm">
+						<label for="name"> Ваше имя: </label><input type="text" class="name" id="name"> <br>
+						<label for="phone"> Телефон: </label><input type="text" class="phone" id="phone">
+						<button class="btn" id="send">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>						
 					</form>
 			</div>
 		</div>

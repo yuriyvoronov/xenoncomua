@@ -84,7 +84,7 @@ $green: #8bc954;
 footer
 {
 	background: #333;
-	height: 410px;
+	min-height: 410px;
 	
 	.footer
 	{
@@ -171,7 +171,7 @@ footer
 	.question
 	{
 		background: #434343;
-		height: 100%;
+		min-height: 410px;
 		
 		h2
 		{
@@ -182,16 +182,64 @@ footer
 		{
 			padding: 0 10px 0;
 		}
-		.name
+		.name, .phone
 		{
 			    background: none;
-			border: none;
-				border-bottom: 2px solid #fff;
-				&:before
+				border: none;
+				border-bottom: 2px solid #989898;
+				margin-top: 12px;
+				margin-bottom: 20px;	
+				padding: 4px;
+				сolor:#f4f4f4;
+				width: 200px;
+				&:visited
 				{
-					content: 'Ваше Имя:'
+					background: none;
 				}
-				
+		}
+		form
+		{
+			padding: 0 10px;
+			color: #f4f4f4;
+			.btn {
+					-webkit-border-radius: 28;
+					-moz-border-radius: 28;
+					border-radius: 28px;
+					font-family: 'Roboto';
+					color: #ffffff;
+					font-size: 20px;
+					background: #77be38;
+					padding: 15px 30px 15px 30px;
+					text-decoration: none;
+					
+					
+					&:hover {
+					background: #67a82d;
+					-webkit-border-radius: 28;
+					-moz-border-radius: 28;
+					border-radius: 28px;
+					
+					background-image: -webkit-linear-gradient(top, #67a82d, #77be38);
+					background-image: -moz-linear-gradient(top, #67a82d, #77be38);
+					background-image: -ms-linear-gradient(top, #67a82d, #77be38);
+					background-image: -o-linear-gradient(top, #67a82d, #77be38);
+					background-image: linear-gradient(to bottom, #67a82d, #77be38);
+					text-decoration: none;
+					}
+					}
+		}
+		label
+		{
+			    display: inline-block;
+				max-width: 100%;
+				margin-bottom: 5px;
+				font-weight: 700;
+				color: #989898;
+				padding: 5px;
+				padding-bottom: 6px;
+				border-bottom: 2px solid #989898;
+				/* margin-top: 4px; */
+				width: 100px;
 		}
 	}
 }
