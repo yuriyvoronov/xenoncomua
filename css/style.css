@@ -47,6 +47,9 @@ body {
   .menu:after {
     clear: both; }
 
+content {
+  display: block; }
+
 footer {
   background: #333;
   min-height: 410px; }

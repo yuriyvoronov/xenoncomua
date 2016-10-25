@@ -15,3 +15,8 @@ $(document).ready(function()
 }
 )
 });
+$(window).on('load resize', function(){
+	$s=$(document).height() - $("header").height() - $("footer").height();
+	
+	$("content").css({minHeight: $s + 'px'});
+});
