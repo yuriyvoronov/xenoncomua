@@ -196,9 +196,20 @@ footer
 				padding: 4px;
 				сolor:#f4f4f4;
 				width: 200px;
+				&:-webkit-autofill {
+					-webkit-box-shadow: inset 0 0 0 50px #434343 !important; /* Цвет фона */
+					-webkit-text-fill-color: #f4f4f4 !important; /* цвет текста */
+						color: #f4f4f4 !important; /* цвет текста */
+}
 				&:visited
 				{
 					background: none;
+				}
+				&:focus, &:active
+				{
+						
+					
+					outline: none;
 				}
 		}
 		form

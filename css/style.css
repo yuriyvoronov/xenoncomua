@@ -120,8 +120,17 @@ footer {
       padding: 4px;
       ╤Бolor: #f4f4f4;
       width: 200px; }
+      footer .question .name:-webkit-autofill, footer .question .phone:-webkit-autofill {
+        -webkit-box-shadow: inset 0 0 0 50px #434343 !important;
+        /* ╨ж╨▓╨╡╤В ╤Д╨╛╨╜╨░ */
+        -webkit-text-fill-color: #f4f4f4 !important;
+        /* ╤Ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */
+        color: #f4f4f4 !important;
+        /* ╤Ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */ }
       footer .question .name:visited, footer .question .phone:visited {
         background: none; }
+      footer .question .name:focus, footer .question .name:active, footer .question .phone:focus, footer .question .phone:active {
+        outline: none; }
     footer .question form {
       padding: 0 10px;
       color: #f4f4f4; }
